@@ -20,8 +20,8 @@ green='\e[0;32m'
 TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipinfo.io/ip)
 TIMES="10"
-CHATID="6285234805"
-KEY="6838495061:AAGq5FPwqVNVs0YtvOjcKpFW4CAIs7fCbpM"
+CHATID="628523805"
+KEY="6838495061:AAGq5FPwqVNVsYtvOjcKpFW4CAIs7fCbpM"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 # ===================
 MYIP=$(curl -sS ipv4.icanhazip.com)
@@ -535,7 +535,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service limit Quota"
-wget --no-check-certificate http://autsc.my.id/new/files/limit.sh && chmod +x limit.sh && ./limit.sh
+wget --no-check-certificate https://raw.githubusercontent.com/Teligede/t/main/files/limit.sh && chmod +x limit.sh && ./limit.sh
 
 #SERVICE VMESS
 # // Installing UDP Mini
