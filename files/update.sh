@@ -35,8 +35,8 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget --no-check-certificate http://autsc.my.id/new/Features/menu.zip
-    wget --no-check-certificate -q -O /usr/bin/enc "http://autsc.my.id/new/enc/encrypt" ; chmod +x /usr/bin/enc
+    wget --no-check-certificate https://raw.githubusercontent.com/Teligede/t/main/Features/menu.zip
+    wget --no-check-certificate -q -O /usr/bin/enc "https://raw.githubusercontent.com/Teligede/t/main/enc/encrypt" ; chmod +x /usr/bin/enc
     7z e -paskykenza123 menu.zip
     unzip menu.zip
     chmod +x menu/*

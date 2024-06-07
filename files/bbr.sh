@@ -18,7 +18,7 @@ clear
 #	 menu
 #else
 
-echo -e "Installing TCP BBR Mod By Lunatic"
+echo -e "Installing TCP BBR Mod By rmbl"
 echo -e "Please Wait BBR Installation Will Starting . . ."
 sleep 5
 clear
