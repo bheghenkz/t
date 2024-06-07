@@ -3,5 +3,5 @@ REPO="https://raw.githubusercontent.com/Teligede/t/main/"
 
 
 
-wget -q -O /etc/default/dropbear "${REPO}cfg_conf_js/dropbear.conf"
+wget -q -O /etc/default/dropbear "${REPO}cfg/dropbear.conf"
 chmod +x /etc/default/dropbear
