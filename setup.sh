@@ -20,8 +20,8 @@ green='\e[0;32m'
 TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipinfo.io/ip)
 TIMES="10"
-CHATID="6447416716"
-KEY="6951295400:AAF8_cbbAezmjkC55ygrXPEAoabr7OWgbL8"
+CHATID="7234181498"
+KEY="7486789981:AAE9nqmJ8_shw5rARc1KD2I-Lkx_bOz4UH0"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 # ===================
 MYIP=$(curl -sS ipv4.icanhazip.com)
@@ -654,9 +654,9 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user oceantestdigital@gmail.com
-from oceantestdigital@gmail.com
-password jokerman77 
+user smilestorevpn
+from smilestorevpn@gmail.com
+password erbcwjxolydtodxg
 logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
